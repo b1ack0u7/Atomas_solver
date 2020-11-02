@@ -22,12 +22,10 @@ def suma():
         art.append(ini.copy())
         ini.pop(i)
         
-        
     for i in range(0,len(art)):
         dicc[i]=suma_core(art[i])
-        
-        
-        
+
+
 def det():
     tmp=[]
     for i in range(0,len(dicc)):
@@ -137,7 +135,6 @@ while True:
 fn_clear()
 
 while True:
-    
     print("Array actual -->",ini)
     try:
         print("")
@@ -146,7 +143,6 @@ while True:
         print("")
         print("Adios")
         break
-
     if (x > 0):
         add_data(x)
         
