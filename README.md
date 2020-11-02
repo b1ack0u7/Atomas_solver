@@ -1,2 +1,2 @@
 # Atomas_solver
-A code to win in the game of Atomas
+A code to win at the game Atomas
